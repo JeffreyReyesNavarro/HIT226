@@ -1,0 +1,71 @@
+.Gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(2,400px);
+  grid-template-rows: 100px;
+  grid-gap: 1rem;
+  margin: 0 ;
+  width: 200px;
+  height:auto;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  align-items: start;
+  justify-items: center;
+  left: 20%;
+  top: 10%;
+
+}
+
+body{
+  background-color: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin: 0 0 20px 0;
+
+}
+
+.main-cont {
+  width: 350px;
+  background: #ffffff;
+
+
+}
+
+img {
+  max-width: 100%;
+  box-shadow: 2px 2px 2px 2px #888888;
+
+}
+
+.main-cont a {
+  font-weight: bold;
+  letter-spacing: .2em;
+  color: #050505;
+  display: block;
+  padding: 30px 0 20px 20px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  /**border-bottom: 1px dotted gray;**/
+}
+
+.main-cont a:hover{
+  background: #f9f7f7;
+}
+
+.main-cont-ul ul {
+  color: #050505;
+  display: none;
+}
+.main-cont-ul li:hover ul {
+  display: block;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
